@@ -3,4 +3,9 @@ new Vue({
     data: {
         title: 'Learning Vue'
     }
+    methods: {
+        greet(){
+            return 'Hello there'
+        }
+    }
 })
